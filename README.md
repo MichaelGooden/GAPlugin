@@ -1,6 +1,6 @@
 # GAPlugin
 
-> Google Analytics plugin for iOS, Android, and BlackBerry 10. This allows you to post usage information to your Google Analytics account.
+> Google Analytics plugin for iOS, Android, BlackBerry 10, Windows Phone 7 and Windows Phone 8. This allows you to post usage information to your Google Analytics account.
 
 ## Preparation:
 Before you can begin collecting metrics data, you need to set up a GoogleAnalytics Mobile App account so you can view them. When you do so, you will obtain an app tracking id which we'll use during session initialization. Start by going to the [Google Analytics](http://www.google.com/analytics/features/mobile-app-analytics.html) site and click on the **Create an Account** button. Once signed in, click on the **Admin** button and the **+ New Account** button under the **Accounts** tab. At the top of the resulting tab, select the **App** button in answer to the **What would you like to track?** query. Fill out the form as appropriate. Complete instructions can be found [here](http://www.google.com/analytics/features/mobile-app-analytics.html).
@@ -31,7 +31,7 @@ For additional info, take a look at the [Plugman Documentation](https://github.c
 
 To use this plugin with PhoneGap Build, add the following plugin reference to your config.xml
 
-	<gap:plugin name="net.michaelgooden.cordova.GAPlugin" source="plugins.cordova.io" version="~2.5.0" />
+	<gap:plugin name="net.michaelgooden.cordova.GAPlugin" source="plugins.cordova.io" version="~2.5.1" />
 
 ## Usage
 The plugin creates the object `window.plugins.gaPlugin
