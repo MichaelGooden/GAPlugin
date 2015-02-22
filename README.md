@@ -11,9 +11,9 @@ Before you can begin collecting metrics data, you need to set up a GoogleAnalyti
 
 Add the following feature tag in your config.xml
 
-	<feature name="GAPlugin" >
-		< param name="android-package" value="com.adobe.plugins.GAPlugin"/>
-	</feature>
+    <feature name="GAPlugin" >
+        <param name="android-package" value="com.adobe.plugins.GAPlugin"/>
+    </feature>
 
 This plugin is based on [plugman](https://github.com/apache/cordova-plugman). to install it to your app,
 simply execute plugman as follows;
@@ -31,7 +31,7 @@ For additional info, take a look at the [Plugman Documentation](https://github.c
 
 To use this plugin with PhoneGap Build, add the following plugin reference to your config.xml
 
-	<gap:plugin name="com.adobe.plugins.gaplugin" />
+	<gap:plugin name="net.michaelgooden.cordova.GAPlugin" source="plugins.cordova.io" version="~2.5.0" />
 
 ## Usage
 The plugin creates the object `window.plugins.gaPlugin
