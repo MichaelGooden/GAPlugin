@@ -66,4 +66,24 @@
             </feature>
         </config-file>
     </platform>
+
+    <platform name="wp8">
+      <config-file target="config.xml" parent="/*">
+        <feature name="GAPlugin">
+          <param name="wp-package" value="GAPlugin"/>
+        </feature>
+      </config-file>
+     
+      <source-file src="src/wp/GAPlugin.cs" />  
+    </platform>
+   
+    <platform name="wp7">
+      <config-file target="config.xml" parent="/*">
+        <feature name="GAPlugin">
+          <param name="wp-package" value="GAPlugin"/>
+        </feature>
+      </config-file>
+       
+      <source-file src="src/wp/GAPlugin.cs" />  
+    </platform>
 </plugin>
