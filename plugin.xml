@@ -2,7 +2,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="net.michaelgooden.cordova.GAPlugin"
-    version="2.5.1">
+    version="2.5.5">
 
     <name>GAPlugin</name>
     <author>Bob Easterday</author>
@@ -73,7 +73,10 @@
           <param name="wp-package" value="GAPlugin"/>
         </feature>
       </config-file>
-     
+
+      <framework src="src/wp/packages/GoogleAnalytics.dll" custom="true" />
+      <framework src="src/wp/packages/GoogleAnalytics.Core.dll" custom="true" />
+
       <source-file src="src/wp/GAPlugin.cs" />  
     </platform>
    
@@ -83,7 +86,10 @@
           <param name="wp-package" value="GAPlugin"/>
         </feature>
       </config-file>
-       
+
+      <framework src="src/wp/packages/GoogleAnalytics.dll" custom="true" />
+      <framework src="src/wp/packages/GoogleAnalytics.Core.dll" custom="true" />
+
       <source-file src="src/wp/GAPlugin.cs" />  
     </platform>
 </plugin>

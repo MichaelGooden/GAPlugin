@@ -5,6 +5,7 @@ using WPCordovaClassLib.Cordova.Commands;
 using WPCordovaClassLib.Cordova.JSON;
 
 using GoogleAnalytics;
+using GoogleAnalytics.Core;
 using System.Xml.Linq;
 using System.Windows;
 using System.Windows.Threading;
